@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+nav {
+  border: 1px solid red;
+}
+nav .nav-container {
+  max-width: 1440px;
+  height: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+}
+nav .nav-container .nav-left {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+nav .nav-container .nav-left .logo h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 150%;
+  letter-spacing: -0.03em;
+  color: #3563e9;
+}
+nav .nav-container .nav-left .nav-search input {
+  border-radius: 70px;
+  width: 492px;
+  height: 44px;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  text-align: justify;
+  color: #596780;
+  outline: none;
+  padding: 0 0px 0 45px;
+  background-image: url(../img/search.svg);
+  cursor: pointer;
+  background-position: 13px 9px;
+  background-repeat: no-repeat;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+}
+nav .nav-container .nav-right {
+  display: flex;
+  gap: 15px;
+}
+nav .nav-container .nav-right .favorite {
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 90px;
+  width: 44px;
+  height: 44px;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+nav .nav-container .nav-right .notification {
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 90px;
+  width: 44px;
+  height: 44px;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+nav .nav-container .nav-right .settings {
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 90px;
+  width: 44px;
+  height: 44px;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+nav .nav-container .nav-right .user {
+  display: none;
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  border-radius: 90px;
+  width: 44px;
+  height: 44px;
+  -o-object-fit: fill;
+     object-fit: fill;
+  opacity: 0.8;
+}/*# sourceMappingURL=style.css.map */
