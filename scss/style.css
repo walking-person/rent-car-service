@@ -8,17 +8,14 @@
   --font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-nav {
-  margin-bottom: 30px;
-}
 nav .nav-container {
+  padding: 30px;
   max-width: 1440px;
   height: 124px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin: auto;
-  border: 1px solid rgba(195, 212, 233, 0.4);
 }
 nav .nav-container .nav-left {
   display: flex;
@@ -108,7 +105,8 @@ nav .nav-container .nav-right .user img {
 }
 
 .rent-banner {
-  margin-bottom: 30px;
+  padding: 25px;
+  background: #f6f7f9;
 }
 .rent-banner .rent-banner-container {
   display: flex;
@@ -206,14 +204,21 @@ nav .nav-container .nav-right .user img {
   border: none;
 }
 
+.popular-car {
+  padding: 25px;
+  background: #f6f7f9;
+}
 .popular-car .popular-car-container {
   margin: auto;
   max-width: 1440px;
 }
 .popular-car .popular-car-container .popular-car-text-box {
+  width: 1350px;
+  margin: auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 .popular-car .popular-car-container .popular-car-text-box h1 {
   font-family: var(--font-family);
@@ -229,4 +234,134 @@ nav .nav-container .nav-right .user img {
   text-align: center;
   color: #3563e9;
   text-decoration: none;
+}
+.popular-car .popular-car-container .popular-car-box {
+  display: flex;
+  max-width: 1440px;
+  flex-wrap: wrap;
+}
+.popular-car .popular-car-container .popular-car-box .car-card {
+  margin: auto;
+  border-radius: 10px;
+  padding: 25px;
+  width: 304px;
+  height: 388px;
+  background: #fff;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-brand {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-brand .car-text h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.03em;
+  color: #1a202c;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-brand .car-text p {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #90a3bf;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-brand .favorite {
+  cursor: pointer;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-photo {
+  position: absolute;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-photo img {
+  margin-left: 15px;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .smooth {
+  margin-bottom: 55px;
+  position: relative;
+  top: 25px;
+  max-width: 304px;
+  height: 68px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-info .fuel {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-info .fuel h1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #90a3bf;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-info .transmission {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-info .transmission h1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: #90a3bf;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-info .seat {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .car-info .seat h1 {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  color: #90a3bf;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .rent-buy {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .rent-buy .rent-price {
+  display: flex;
+  align-items: center;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .rent-buy .rent-price h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 20px;
+  color: #1a202c;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .rent-buy .rent-price p {
+  margin-top: 5px;
+  font-family: var(--font-family);
+  font-weight: 700;
+  color: #1a202c;
+  font-size: 14px;
+  color: #90a3bf;
+}
+.popular-car .popular-car-container .popular-car-box .car-card .rent-buy button {
+  border-radius: 4px;
+  padding: 0px 20px;
+  width: 116px;
+  height: 44px;
+  background: #3563e9;
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+  border: none;
 }/*# sourceMappingURL=style.css.map */
