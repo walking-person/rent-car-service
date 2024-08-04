@@ -11,7 +11,7 @@
 nav {
 	.nav-container {
 		padding: 30px;
-		max-width: 1440px;
+		max-width: 1400px;
 		height: 124px;
 		display: flex;
 		align-items: center;
@@ -116,7 +116,7 @@ nav {
 		display: flex;
 		justify-content: center;
 		gap: 45px;
-		max-width: 1440px;
+		max-width: 1400px;
 		margin: auto;
 		.left-car {
 			border-radius: 10px;
@@ -209,169 +209,192 @@ nav {
 	}
 }
 
-.popular-car {
-	padding: 25px;
+.order {
 	background: #f6f7f9;
-	.popular-car-container {
+	.order-container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 50px;
+		max-width: 1400px;
 		margin: auto;
-		max-width: 1440px;
-		// Фикс размеры на экране мака бука текст изменяется размером ну типа возле блока машин 
-		.popular-car-text-box {
-			width: 1350px;
-			margin: auto;
-			display: flex;
-			align-items: center;
-			justify-content: space-between;
-			margin-bottom: 30px;
-			h1 {
-				font-family: var(--font-family);
-				font-weight: 600;
-				font-size: 16px;
-				text-align: center;
-				color: #90a3bf;
+		.pick-up {
+			border-radius: 10px;
+			width: 582px;
+			height: 132px;
+			padding: 20px;
+			background: #fff;
+			.mark-text {
+				display: flex;
+				gap: 8px;
+				margin-bottom: 10px;
+				margin-left: 15px;
+				h1 {
+					font-family: var(--font-family);
+					font-weight: 600;
+					font-size: 20px;
+					line-height: 150%;
+					letter-spacing: -0.02em;
+					color: #1a202c;
+				}
 			}
-			a {
-				font-family: var(--font-family);
-				font-weight: 600;
-				font-size: 16px;
-				text-align: center;
-				color: #3563e9;
-				text-decoration: none;
-			}
-		}
-		.popular-car-box {
-			display: flex;
-			max-width: 1440px;
-			flex-wrap: wrap;
-			.car-card {
-				margin: auto;
-				border-radius: 10px;
-				padding: 25px;
-				width: 304px;
-				height: 388px;
-				background: #fff;
-				.car-brand {
-					display: flex;
-					align-items: center;
-					justify-content: space-between;
-					margin-bottom: 65px;
-					.car-text {
-						h1 {
-							font-family: var(--font-family);
-							font-weight: 700;
-							font-size: 20px;
-							line-height: 150%;
-							letter-spacing: -0.03em;
-							color: #1a202c;
-						}
-						p {
-							font-family: var(--font-family);
-							font-weight: 700;
-							font-size: 14px;
-							line-height: 150%;
-							letter-spacing: -0.02em;
-							color: #90a3bf;
-						}
-					}
-					.favorite {
-						cursor: pointer;
-					}
-				}
-				.car-photo {
-					position: absolute;
-					img {
-						margin-left: 15px;
-					}
-				}
-				.smooth {
-					margin-bottom: 55px;
-					position: relative;
-					top: 25px;
-					max-width: 304px;
-					height: 68px;
-					background: linear-gradient(
-						180deg,
-						rgba(255, 255, 255, 0) 0%,
-						#fff 100%
-					);
-				}
-				.car-info {
-					display: flex;
-					justify-content: space-between;
-					margin-bottom: 40px;
-					.fuel {
-						display: flex;
-						align-items: center;
-						gap: 5px;
-						h1 {
-							font-family: var(--font-family);
-							font-weight: 500;
-							font-size: 14px;
-							line-height: 150%;
-							letter-spacing: -0.02em;
-							color: #90a3bf;
-						}
-					}
-					.transmission {
-						display: flex;
-						align-items: center;
-						gap: 5px;
-						h1 {
-							font-family: var(--font-family);
-							font-weight: 500;
-							font-size: 14px;
-							color: #90a3bf;
-						}
-					}
-					.seat {
-						display: flex;
-						align-items: center;
-						gap: 5px;
-						h1 {
-							font-family: var(--font-family);
-							font-weight: 500;
-							font-size: 14px;
-							color: #90a3bf;
-						}
-					}
-				}
-				.rent-buy {
-					display: flex;
-					align-items: center;
-					justify-content: space-between;
-					.rent-price {
-						display: flex;
-						align-items: center;
-						h1 {
-							font-family: var(--font-family);
-							font-weight: 700;
-							font-size: 20px;
-							color: #1a202c;
-						}
-						p {
-							margin-top: 5px;
-							font-family: var(--font-family);
-							font-weight: 700;
-							color: #1a202c;
-							font-size: 14px;
-							color: #90a3bf;
-						}
-					}
-					button {
-						border-radius: 4px;
-						padding: 0px 20px;
-						width: 116px;
-						height: 44px;
-						background: #3563e9;
+			.order-time {
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				.location {
+					h1 {
 						font-family: var(--font-family);
-						font-weight: 600;
+						font-weight: 700;
 						font-size: 16px;
 						line-height: 150%;
 						letter-spacing: -0.02em;
-						text-align: center;
-						color: #fff;
-						border: none;
+						color: #1a202c;
 					}
+					p {
+						font-family: var(--font-family);
+						font-weight: 500;
+						font-size: 12px;
+						letter-spacing: -0.02em;
+						color: #90a3bf;
+					}
+				}
+				.date {
+					h1 {
+						font-family: var(--font-family);
+						font-weight: 700;
+						font-size: 16px;
+						line-height: 150%;
+						letter-spacing: -0.02em;
+						color: #1a202c;
+					}
+					p {
+						font-family: var(--font-family);
+						font-weight: 500;
+						font-size: 12px;
+						letter-spacing: -0.02em;
+						color: #90a3bf;
+					}
+				}
+				.time {
+					h1 {
+						font-family: var(--font-family);
+						font-weight: 700;
+						font-size: 16px;
+						line-height: 150%;
+						letter-spacing: -0.02em;
+						color: #1a202c;
+					}
+					p {
+						font-family: var(--font-family);
+						font-weight: 500;
+						font-size: 12px;
+						letter-spacing: -0.02em;
+						color: #90a3bf;
+					}
+				}
+				.line {
+					border: 1px solid rgba(195, 212, 233, 0.4);
+					width: 48px;
+					height: 0px;
+					transform: rotate(-90deg);
+				}
+			}
+		}
+		.switch {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			border-radius: 10px;
+			width: 60px;
+			height: 60px;
+			background: #3563e9;
+			transition: 600ms;
+		}
+		.switch:hover {
+			transition: 600ms;
+			transform: rotate(90deg);
+		}
+		.drop-off {
+			border-radius: 10px;
+			width: 582px;
+			height: 132px;
+			padding: 20px;
+			background: #fff;
+			.mark-text {
+				display: flex;
+				gap: 8px;
+				margin-bottom: 10px;
+				margin-left: 15px;
+				h1 {
+					font-family: var(--font-family);
+					font-weight: 600;
+					font-size: 20px;
+					line-height: 150%;
+					letter-spacing: -0.02em;
+					color: #1a202c;
+				}
+			}
+			.order-time {
+				display: flex;
+				align-items: center;
+				justify-content: space-around;
+				.location {
+					h1 {
+						font-family: var(--font-family);
+						font-weight: 700;
+						font-size: 16px;
+						line-height: 150%;
+						letter-spacing: -0.02em;
+						color: #1a202c;
+					}
+					p {
+						font-family: var(--font-family);
+						font-weight: 500;
+						font-size: 12px;
+						letter-spacing: -0.02em;
+						color: #90a3bf;
+					}
+				}
+				.date {
+					h1 {
+						font-family: var(--font-family);
+						font-weight: 700;
+						font-size: 16px;
+						line-height: 150%;
+						letter-spacing: -0.02em;
+						color: #1a202c;
+					}
+					p {
+						font-family: var(--font-family);
+						font-weight: 500;
+						font-size: 12px;
+						letter-spacing: -0.02em;
+						color: #90a3bf;
+					}
+				}
+				.time {
+					h1 {
+						font-family: var(--font-family);
+						font-weight: 700;
+						font-size: 16px;
+						line-height: 150%;
+						letter-spacing: -0.02em;
+						color: #1a202c;
+					}
+					p {
+						font-family: var(--font-family);
+						font-weight: 500;
+						font-size: 12px;
+						letter-spacing: -0.02em;
+						color: #90a3bf;
+					}
+				}
+				.line {
+					border: 1px solid rgba(195, 212, 233, 0.4);
+					width: 48px;
+					height: 0px;
+					transform: rotate(-90deg);
 				}
 			}
 		}

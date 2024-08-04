@@ -10,7 +10,7 @@
 
 nav .nav-container {
   padding: 30px;
-  max-width: 1440px;
+  max-width: 1400px;
   height: 124px;
   display: flex;
   align-items: center;
@@ -112,7 +112,7 @@ nav .nav-container .nav-right .user img {
   display: flex;
   justify-content: center;
   gap: 45px;
-  max-width: 1440px;
+  max-width: 1400px;
   margin: auto;
 }
 .rent-banner .rent-banner-container .left-car {
@@ -204,164 +204,182 @@ nav .nav-container .nav-right .user img {
   border: none;
 }
 
-.popular-car {
-  padding: 25px;
+.order {
   background: #f6f7f9;
 }
-.popular-car .popular-car-container {
-  margin: auto;
-  max-width: 1440px;
-}
-.popular-car .popular-car-container .popular-car-text-box {
-  width: 1350px;
-  margin: auto;
+.order .order-container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin-bottom: 30px;
-}
-.popular-car .popular-car-container .popular-car-text-box h1 {
-  font-family: var(--font-family);
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  color: #90a3bf;
-}
-.popular-car .popular-car-container .popular-car-text-box a {
-  font-family: var(--font-family);
-  font-weight: 600;
-  font-size: 16px;
-  text-align: center;
-  color: #3563e9;
-  text-decoration: none;
-}
-.popular-car .popular-car-container .popular-car-box {
-  display: flex;
-  max-width: 1440px;
-  flex-wrap: wrap;
-}
-.popular-car .popular-car-container .popular-car-box .car-card {
+  justify-content: center;
+  gap: 50px;
+  max-width: 1400px;
   margin: auto;
+}
+.order .order-container .pick-up {
   border-radius: 10px;
-  padding: 25px;
-  width: 304px;
-  height: 388px;
+  width: 582px;
+  height: 132px;
+  padding: 20px;
   background: #fff;
 }
-.popular-car .popular-car-container .popular-car-box .car-card .car-brand {
+.order .order-container .pick-up .mark-text {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 65px;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .car-brand .car-text h1 {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 150%;
-  letter-spacing: -0.03em;
-  color: #1a202c;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .car-brand .car-text p {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 150%;
-  letter-spacing: -0.02em;
-  color: #90a3bf;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .car-brand .favorite {
-  cursor: pointer;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .car-photo {
-  position: absolute;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .car-photo img {
+  gap: 8px;
+  margin-bottom: 10px;
   margin-left: 15px;
 }
-.popular-car .popular-car-container .popular-car-box .car-card .smooth {
-  margin-bottom: 55px;
-  position: relative;
-  top: 25px;
-  max-width: 304px;
-  height: 68px;
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, #fff 100%);
-}
-.popular-car .popular-car-container .popular-car-box .car-card .car-info {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 40px;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .car-info .fuel {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .car-info .fuel h1 {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 150%;
-  letter-spacing: -0.02em;
-  color: #90a3bf;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .car-info .transmission {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .car-info .transmission h1 {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 14px;
-  color: #90a3bf;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .car-info .seat {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .car-info .seat h1 {
-  font-family: var(--font-family);
-  font-weight: 500;
-  font-size: 14px;
-  color: #90a3bf;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .rent-buy {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .rent-buy .rent-price {
-  display: flex;
-  align-items: center;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .rent-buy .rent-price h1 {
-  font-family: var(--font-family);
-  font-weight: 700;
-  font-size: 20px;
-  color: #1a202c;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .rent-buy .rent-price p {
-  margin-top: 5px;
-  font-family: var(--font-family);
-  font-weight: 700;
-  color: #1a202c;
-  font-size: 14px;
-  color: #90a3bf;
-}
-.popular-car .popular-car-container .popular-car-box .car-card .rent-buy button {
-  border-radius: 4px;
-  padding: 0px 20px;
-  width: 116px;
-  height: 44px;
-  background: #3563e9;
+.order .order-container .pick-up .mark-text h1 {
   font-family: var(--font-family);
   font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #1a202c;
+}
+.order .order-container .pick-up .order-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.order .order-container .pick-up .order-time .location h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: -0.02em;
-  text-align: center;
-  color: #fff;
-  border: none;
+  color: #1a202c;
+}
+.order .order-container .pick-up .order-time .location p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #90a3bf;
+}
+.order .order-container .pick-up .order-time .date h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #1a202c;
+}
+.order .order-container .pick-up .order-time .date p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #90a3bf;
+}
+.order .order-container .pick-up .order-time .time h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #1a202c;
+}
+.order .order-container .pick-up .order-time .time p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #90a3bf;
+}
+.order .order-container .pick-up .order-time .line {
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  width: 48px;
+  height: 0px;
+  transform: rotate(-90deg);
+}
+.order .order-container .switch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  width: 60px;
+  height: 60px;
+  background: #3563e9;
+  transition: 600ms;
+}
+.order .order-container .switch:hover {
+  transition: 600ms;
+  transform: rotate(90deg);
+}
+.order .order-container .drop-off {
+  border-radius: 10px;
+  width: 582px;
+  height: 132px;
+  padding: 20px;
+  background: #fff;
+}
+.order .order-container .drop-off .mark-text {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+}
+.order .order-container .drop-off .mark-text h1 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #1a202c;
+}
+.order .order-container .drop-off .order-time {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.order .order-container .drop-off .order-time .location h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #1a202c;
+}
+.order .order-container .drop-off .order-time .location p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #90a3bf;
+}
+.order .order-container .drop-off .order-time .date h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #1a202c;
+}
+.order .order-container .drop-off .order-time .date p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #90a3bf;
+}
+.order .order-container .drop-off .order-time .time h1 {
+  font-family: var(--font-family);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.02em;
+  color: #1a202c;
+}
+.order .order-container .drop-off .order-time .time p {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: -0.02em;
+  color: #90a3bf;
+}
+.order .order-container .drop-off .order-time .line {
+  border: 1px solid rgba(195, 212, 233, 0.4);
+  width: 48px;
+  height: 0px;
+  transform: rotate(-90deg);
 }/*# sourceMappingURL=style.css.map */
